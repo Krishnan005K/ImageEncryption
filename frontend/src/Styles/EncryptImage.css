@@ -1,0 +1,72 @@
+/* EncryptImage.css */
+
+.encrypt-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.encrypt-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.encrypt-input-file {
+    margin-bottom: 20px;
+}
+
+.encrypt-original {
+    margin-bottom: 20px;
+}
+
+.encrypt-original-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.encrypt-input-password {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.encrypt-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.encrypt-button:hover {
+    background-color: #0056b3;
+}
+
+.encrypt-encrypted {
+    margin-top: 20px;
+}
+
+.encrypt-encrypted-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.encrypt-download-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.encrypt-download-button:hover {
+    background-color: #218838;
+}

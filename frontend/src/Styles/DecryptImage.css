@@ -1,0 +1,89 @@
+/* DecryptImage.css */
+
+.decrypt-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.decrypt-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.decrypt-input-file {
+    margin-bottom: 20px;
+}
+
+
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #023974;
+  }
+.decrypt-encrypted {
+    margin-bottom: 20px;
+}
+
+.decrypt-encrypted-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.decrypt-input-password {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.decrypt-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decrypt-button:hover {
+    background-color: #0056b3;
+}
+
+.decrypt-decrypted {
+    margin-top: 20px;
+}
+
+.decrypt-decrypted-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.decrypt-download-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decrypt-download-button:hover {
+    background-color: #218838;
+}

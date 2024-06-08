@@ -1,0 +1,51 @@
+/* HomePage.css */
+
+.nav-bar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-bar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.nav-bar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-bar-li {
+    margin-left: 25px;
+}
+.nav-bar-li:hover{
+    background-color: #fff;
+    border-radius: 6px;
+    color: #007bff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    padding: 5px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: #007bff;
+    transition: 0.5s;
+    cursor: pointer;
+}
