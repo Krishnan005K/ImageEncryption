@@ -44,7 +44,7 @@ const EncryptImage = () => {
             )}
             <input 
                 className='encrypt-input-password'
-                type="text" 
+                type="password" 
                 placeholder="Password" 
                 value={password} 
                 onChange={(e) => setPassword(e.target.value)} 
