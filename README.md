@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Image Encryption Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
 
-## Available Scripts
+The Image Encryption Tool is a web application developed using React.js that provides functionality to upload, encrypt, decrypt, and download images. It supports various image formats and offers a user-friendly interface for easy interaction.
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+**Image Upload:** Users can upload images from their local system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Encryption:** The tool uses a secure encryption algorithm to encrypt uploaded images.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Decryption:** Users can decrypt encrypted images to their original format.
 
-### `npm test`
+**Download:** Encrypted and decrypted images can be downloaded to the local system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Supported Formats:** The tool supports popular image formats such as JPEG, PNG, and GIF.
 
-### `npm run build`
+# Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Frontend:** React.js, Bootstrap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Encryption Algorithm:** AES
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Backend:** No backend is used; encryption and decryption are performed client-side.
 
-### `npm run eject`
+# How to Use
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Upload Image:** Click the "Upload" button and select an image file from your computer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Encrypt Image:** After uploading, click the "Encrypt" button to encrypt the image.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Decrypt Image:** To decrypt an encrypted image, click the "Decrypt" button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Download Image:** Download the encrypted or decrypted image by clicking the "Download" button.
 
-## Learn More
+# Future Improvements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implementing additional encryption algorithms for user choice.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Adding support for bulk image encryption and decryption.
 
-### Code Splitting
+# Try It Out
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can try out the Image Encryption Tool by visiting the following link: [Image Encryption Tool](https://stfly.biz/73FrX). Upload your images and experience the encryption and decryption process firsthand.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Conclusion
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Image Encryption Tool provides a simple yet effective way to encrypt and decrypt images securely. It can be used for various purposes, including data protection and privacy.
